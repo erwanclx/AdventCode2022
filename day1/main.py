@@ -5,7 +5,7 @@ print(split)
 # -----------* part 1 - day 1 *----------- #
 part1_banner = pyfiglet.figlet_format("PART 1 - DAY 1")
 print(part1_banner)
-with open ('day1/data.txt', 'r') as dataFile:
+with open ('data.txt', 'r') as dataFile:
     data = dataFile.read().splitlines()
     total = 0
     calories_list = []
@@ -22,7 +22,7 @@ with open ('day1/data.txt', 'r') as dataFile:
 # -----------* part 2 - day 1 *----------- #
 part2_banner = pyfiglet.figlet_format("PART 2 - DAY 1")
 print(part2_banner)
-with open ('day1/data.txt', 'r') as dataFile:
+with open ('data.txt', 'r') as dataFile:
     data = dataFile.read().splitlines()
     total = 0
     calories_list = []
