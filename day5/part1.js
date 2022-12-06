@@ -45,8 +45,8 @@ columns_final.forEach(column => str_result += column[column.length - 1]);
 console.log(str_result);
 
 function move(number, from, to) {
-    from = from - 1;
-    to = to - 1;
+    from--;
+    to--;
     for(let i = 0; i < number ; i++) { 
         columns_final[to].push(columns_final[from].pop());
     }
